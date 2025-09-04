@@ -25,7 +25,7 @@ Now let's create a virtual environment. Virtual environments are a simple way to
 If you are new to CONDA please read through this article. It should really help you get started and understand better what this is all about
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
-Now, let's get started setting everything up for 331. Here's the command:
+Now, let's get started setting everything up. Here's the command:
 
 ``conda create -n COS597 python``
 

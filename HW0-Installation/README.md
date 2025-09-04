@@ -91,5 +91,7 @@ Each assignment will consist of a coding and writing task. In the initial homewo
 # Coding Task
 
 1. Open the Jupyter Notebook (*.ipynb)
-2. Implement the missing functions ( that show a `NotImplementedError` when running) in the `src` folder as indicated inside the jupyter notebook
-3. Test the implemented functions in the jupyter notebook
+2. Implement the missing functions ( that show a `NotImplementedError` when running) in the `src` folder as indicated inside the jupyter notebook. You are welcome to use the numpy implementations.
+3. Test the implemented functions in the jupyter notebook.
+
+After completing the task, submit the zipped code with the Jupyter to Canvas. No need to write a report.  

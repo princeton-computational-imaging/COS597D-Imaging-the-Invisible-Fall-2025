@@ -3,15 +3,11 @@
 In this initial assignment, the goals are:
 
 1. to set up a working programming environment using either conda environments.
-2. to get acclimated to the "pull, commit, push" development cycle for git. This course's programming assignments will be submitted via Github (all free-response questions will be submitted via Canvas).
-3. to get acclimated with Jupyter Lab, which is required for all assignments in this course.
-4. to get familiar with Latex homework template, which will be used throughout the quarter.
+2. to get acclimated with Jupyter Lab, which is required for all assignments in this course.
 
 **Please read through readme.md carefully**
 
 **After setting up the assignment environment, please look into the Jupyter notebook (*.ipynb)**
-
-**At the end, prepare a small report on Overleaf and submit the pdf to Canvas. Don't forget to PUSH your repository**
 
 ## Anaconda/Miniconda Environment Setup (Python Environment)
 
@@ -51,47 +47,6 @@ Note that we are installing many packages. This can take a while since all of th
 
 Great! Your environment is all set up. You can check if those environments are correctly installed, by simply open an "ipython"-console and trying to import several of the packages in requirements.txt
 
-## Git (Version Control)
-We will use `git` for all code submissions in this class. New to `git`? Not to worry, it's quite easy! Here's a [helpful guide](https://guides.github.com/activities/hello-world/) or go through this more comprehensive [tutorial](https://git-scm.com/docs/gittutorial)
-
-If you haven't installed GIT on your computer, please install it from [this link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-To clone this repository, install GIT on your computer and copy the link of your assignment repository. Next, you might want to create a folder called `COS597` to download all future assignments in this quarter. Next, `cd` into this environment where you now should find an empty folder, if nothing is downloaded yet.
-
-Now, you have to find the link to your assignment repository above on the github page in your browser at "Clone or Download". This link might be either an SSH or HTTPS link. I recommend setting up SSH keys on your computer, which should facilitate pushing and pulling your repositories using SSH ([Link 1](https://docs.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account),[Link 2](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh))
-
-Once you've copied the link to your keyboard, enter the following into your command-line tool (for windows, this might be the Git Bash):
-
-``git clone INSERT-YOUR-LINK-HERE``
-
-Once cloned, `cd` into the cloned repository. Every assignment has some files that you edit to complete it.
-The problems.md gives concise instructions on what do do, so please read this first. However, the most important part is the assignment.ipynb, the Jupyter Notebook will guide you through complete homework.
-
-## Github development cycle
-
-All assignments are submitted via Github in this class. Once you've accepted this assignment via the Github classroom link, it made a repository of the form `https://github.com/COS597/HW-LINK-\[your github username\]`. In the first part of this README, you cloned the repository to your local machine to develop on.
-
-To make changes, simply open or create some file in your local version. If you created a file, you have to do:
-
-``git add [new_file_name]`` 
-you can also use
-``git add .``
-to add all changes in your repository; however, make sure not to include large files etc. or unnecessary files (like OS-specific files) in there. To avoid pushing these files, you can edit the .gitignore.
-
-Git add will make `git` track the file. If you have edited an already tracked file, you don't have to add it. Then:
-
-``git commit -m [commit_message]``
-
-will commit the change. `commit_message` is something that describes the type of change you made. Good commit messages are descriptive, easy to understand and correspond well with the actual changes made. Finally:
-
-```
-git pull origin master
-git push origin master
-```
-
-will pull the remote code and then push the commit to the repository on Github. 
-
-**The code on the Github server (not the version on your local machine) is the code we will evaluate if you pass the assignment. If you don't push a commit, we won't see it, and we won't grade it **
 
 ## Jupyter Lab
 
@@ -137,5 +92,4 @@ Each assignment will consist of a coding and writing task. In the initial homewo
 
 1. Open the Jupyter Notebook (*.ipynb)
 2. Implement the missing functions ( that show a `NotImplementedError` when running) in the `src` folder as indicated inside the jupyter notebook
-3. Add, commit, and push your implementations to your GitHub repository. 
-4. Ensure that the commits are updated on your GitHub repository **on Time before the due date**. Graders have access to your commit history and will judge according to this. The graders will check if you have an implementation in your repository, and if you fail this, this will count as a direct fail.
+3. Test the implemented functions in the jupyter notebook
